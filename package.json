@@ -1,0 +1,32 @@
+{
+  "name": "nextjs-with-tailwindcss",
+  "version": "1.0.0",
+  "description": "Next JS + Tailwind CSS Starter.",
+  "main": "index.js",
+  "repository": "https://github.com/uiuxarghya/nextjs-with-tailwindcss.git",
+  "author": "Arghya Ghosh <71373838+uiuxarghya@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "export": "yarn clean && next build && next export",
+    "format": "prettier {pages,components}/**/*.{css,js} --write",
+    "lint": "next lint",
+    "clean": "rimraf .next"
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prettier": "latest",
+    "prettier-plugin-tailwindcss": "latest",
+    "tailwindcss": "latest"
+  }
+}
